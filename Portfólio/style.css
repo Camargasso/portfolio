@@ -63,3 +63,22 @@ nav ul li a:hover {
     top: 800px;
     padding-bottom: 300px;
 }
+
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px; /* Largura da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Cor de fundo da área da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Cor da barra de rolagem */
+    border-radius: 6px; /* Raio da borda da barra de rolagem */
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Cor da barra de rolagem ao passar o mouse */
+  }
+  
